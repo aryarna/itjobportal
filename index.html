@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IT JOB | Software Developer, QA Tester & DevOps Career Portal</title>
+
+    <meta name="description" content="Find the latest high-paying IT jobs. Search for Software Engineering, QA Testing, Cloud, and Data Science roles. Remote and local opportunities available.">
+    
+    <meta name="keywords" content="IT jobs 2026, software tester jobs, devops engineer openings, java developer careers, remote IT job portal, high paying tech jobs India">
+    <meta name="author" content="It Job Team">
+    <link rel="canonical" href="https://itjobportal.in/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://itjobportal.in/">
+    <meta property="og:title" content="IT JOB | Find Your Next Tech Role">
+    <meta property="og:description" content="Explore verified IT job listings from Development to Testing.">
+    <meta property="og:image" content="assets/images/og-banner.jpg">
+
+    <!-- Add Fuse.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+
+<header class="main-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo">IT <span>JOB</span></a> 
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html" class="active">Browse Jobs</a></li>
+                <li><a href="pages/contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero-section">
+        <div class="container">
+            <h1>Find Your Next <strong>High-Paying</strong> IT JOB</h1>
+            <p>Search across <em>Development, Testing, DevOps, and Data Science</em> roles.</p>
+            
+            <div class="search-filter-box">
+                <div class="search-input-group">
+                    <input type="text" id="jobSearch" placeholder="Job Title or Skill (Java, Tester...)">
+                    <input type="text" id="locationSearch" placeholder="Location (Remote, City)">
+                    <select id="categoryFilter">
+                        <option value="">All IT Categories</option>
+                        <option value="Development">Development</option>
+                        <option value="Testing">QA & Testing</option>
+                        <option value="DevOps">DevOps & Cloud</option>
+                        <option value="Data">Data Science</option>
+                        <option value="Security">Cyber Security</option>
+                    </select>
+                    <button id="searchBtn">Find Jobs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container main-layout">
+        <aside class="filter-sidebar">
+            <div class="filter-group">
+                <h4>Salary Range (LPA)</h4>
+                <div class="salary-options">
+                    <label><input type="radio" name="salary" value="0" checked> All</label>
+                    <label><input type="radio" name="salary" value="5"> 5L+ PA</label>
+                    <label><input type="radio" name="salary" value="10"> 10L+ PA</label>
+                    <label><input type="radio" name="salary" value="20"> 20L+ PA</label>
+                </div>
+            </div>
+        </aside>
+
+        <div class="content-area">
+            <div class="section-header">
+                <h2>Verified Job Openings</h2>
+                <p id="jobCount">Showing latest tech opportunities</p>
+            </div>
+            
+            <div id="job-container" class="job-grid">
+                <div class="loading">Fetching the best IT jobs for you...</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-info">
+            <h3>IT JOB</h3>
+            <p>Tech careers made easy. Start your journey now. Your dream tech career is just a click away.</p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="pages/terms-of-service.html">Terms of Service</a></li>
+                <li><a href="pages/disclaimer.html">Disclaimer</a></li>
+                <li><a href="pages/contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 It Job Portal. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

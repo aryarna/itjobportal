@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer | IT JOB</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <style>
+        .disclaimer-wrapper {
+            background-color: #f1f5f9;
+            padding: 80px 0;
+            min-height: 75vh;
+        }
+        .disclaimer-card {
+            background: white;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            line-height: 1.8;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Top accent bar */
+        .disclaimer-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, #ef4444, #f59e0b);
+        }
+        .disclaimer-card h1 { 
+            color: #1e293b; 
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .disclaimer-card h2 {
+            color: var(--secondary-color);
+            margin-top: 30px;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        .disclaimer-card p { margin-bottom: 15px; color: #475569; }
+        
+        .warning-note {
+            background: #fff1f2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .footer-simple {
+            background: #0f172a;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer-links a {
+            color: #94a3b8;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+        .footer-links a:hover { color: white; }
+    </style>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container nav-wrapper">
+            <a href="/index.html" class="logo">IT <span>JOB</span></a>
+            <div class="nav-links">
+                <a href="/index.html" style="text-decoration: none; color: var(--primary-color); font-weight: 600;">← Back to Home</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="disclaimer-wrapper">
+        <div class="container">
+            <div class="disclaimer-card">
+                <h1><span>⚠️</span> Disclaimer</h1>
+                
+                <div class="warning-note">
+                    Please read this disclaimer carefully before using the IT JOB portal.
+                </div>
+
+                <p>The information provided by <strong>IT JOB</strong> ("we," "us," or "our") on this website is for general informational purposes only. All job listings are aggregated from various official company career pages.</p>
+
+                <h2>1. Not a Recruitment Agency</h2>
+                <p>IT JOB is NOT a recruitment agency, headhunter, or employer. We do not hire candidates directly, nor do we influence the hiring process of any company listed on our platform.</p>
+
+                <h2>2. Accuracy of Job Listings</h2>
+                <p>While we aim to keep our database updated using smart search algorithms, job details (like deadlines, salary, or requirements) can change without notice. We do not warrant that the information is always 100% accurate or current.</p>
+
+                <h2>3. External Links Policy</h2>
+                <p>Our website contains links to external websites that are not provided or maintained by us. We do not guarantee the accuracy, relevance, or completeness of any information on these external websites. Clicking on an application link is done at your own discretion.</p>
+
+                <h2>4. No Liability</h2>
+                <p>Under no circumstance shall IT JOB be held liable for any loss or damage (including financial or emotional) incurred as a result of using the site or relying on any information provided here. Your use of the site is solely at your own risk.</p>
+
+                <h2>5. Fake Job Alerts</h2>
+                <p>We will never ask you for money, credit card details, or sensitive personal data. If a third-party site linked from our portal asks for payment for a "job offer," please be cautious as it may be a scam.</p>
+
+                <div style="margin-top: 40px; border-top: 1px solid #f1f5f9; padding-top: 25px;">
+                    <p style="font-size: 0.85rem; color: #94a3b8; text-align: center;">
+                        Copyright &copy; 2026 IT JOB. All information is provided "as is."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-simple">
+        <div class="container">
+            <p>&copy; 2026 IT JOB. All rights reserved.</p>
+            <div class="footer-links" style="margin-top: 20px;">
+                <a href="/index.html">Home</a>
+                <a href="privacy-policy.html">Privacy</a>
+                <a href="terms-of-service.html">Terms</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="contact-us.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
